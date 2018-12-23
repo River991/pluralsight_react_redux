@@ -1,8 +1,8 @@
 {
   "name": "pluralsight-redux-starter",
   "version": "1.0.0",
-  "description": "Starter kit for React and Redux Pluralsight course by Cory House",
-  "author": "Cory House",
+  "description": "Following along with Cory Houses' Pluralsight course",
+  "author": "River Phillips",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.8.0",
@@ -57,6 +57,7 @@
     "webpack-hot-middleware": "2.10.0"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/River991/pluralsight_react_redux"
   }
 }
