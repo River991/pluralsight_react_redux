@@ -1,12 +1,18 @@
-import React, {PropTypes} from "react";
-import TextInput from '../common/TextInput';
-import SelectInput from '../common/SelectInput';
+import React, { PropTypes } from "react";
+import TextInput from "../common/TextInput";
+import SelectInput from "../common/SelectInput";
 
-const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => {
-  return(
-    <div>
-    <h1>Manage Course</h1>
+const CourseForm = ({
+  course,
+  allAuthors,
+  onSave,
+  onChange,
+  loading,
+  errors
+}) => {
+  return (
     <form>
+      <h1>Manage Course</h1>
       <TextInput
         name="title"
         label="Title"
@@ -44,12 +50,11 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
       <input
         type="submit"
         disabled={loading}
-        value={loading? 'Saving...' : 'Save'}
+        value={loading ? "Saving..." : "Save"}
         className="btn btn-primary"
         onClick={onSave}
       />
     </form>
-    </div>
   );
 };
 
